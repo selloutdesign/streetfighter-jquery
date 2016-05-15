@@ -44,3 +44,21 @@ p{
 .ryu-throwing {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
+.ryu-cool{
+	background-image: url('../images/ryu-cool.gif');
+}
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  float: left;
+  position: absolute;
+  display: none;
+  top: 160px;
+  z-index: 10;
+  left:600px;
+}
+
+* {
+  outline: red 1px solid;
+}
